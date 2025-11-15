@@ -33,6 +33,9 @@ public class Monster {
     public String getName() {
         return name;
     }
+    public String toString() {
+        return "Monster{name='" + name + "', arms=" + arms + ", eyes=" + eyes + ", legs=" + legs + "}";
+    }
     public static void main(String[] args) {
         Monster monster = new Monster(4, 2, 4, "Abomination");
         System.out.println("Monster Name: " + monster.getName());
